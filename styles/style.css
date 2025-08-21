@@ -1,0 +1,146 @@
+*{
+padding: 0;
+margin: 0;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: white;
+background-color: black;
+}
+
+a{
+text-decoration: none;
+}
+
+.header-site{
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+}
+
+.header-image{
+    width: 100px;
+}
+
+.header-title{
+    font-size:35px;
+    padding: 0px 50px;
+    margin-right: 20px;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    list-style: none;
+    border-top: 1px solid white;
+    font-size: 20px;
+}
+
+.nav-list a:hover{
+    color: rgb(82, 66, 188);
+    font-size: 24px;
+}
+
+.main-page{
+display: flex;
+flex: 1;
+gap: 40px;
+border-top: 1px solid white;
+}
+
+.aside-page{
+    width: 250px;
+    font-size: 20px;
+    padding: 20px;
+    border-right: 1px solid white;
+}
+
+.aside-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 30px;
+    gap: 50px;
+}
+
+.aside-list a:hover{
+    color: rgb(82, 66, 188);
+    font-size: 22px;
+}
+
+.shop-section{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 50px;
+margin-left: 30px;;
+margin-top: 40px;
+}
+
+.product-card{
+display: flex;
+flex-direction: column;
+margin: 20px;
+font-size: 20px;
+border: 1px solid white;
+border-radius: 3px;
+}
+
+.product-image{
+width: 200px;
+height: 200px;
+}
+
+.product-info{
+border-top: 1px solid white;
+width: 100%;
+}
+
+.product-title{
+    font-size: 20px;
+}
+
+.product-price{
+font-size: 26px;
+}
+
+.footer-site{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    gap: 40px;
+    border-top: 1px solid white;
+}
+
+.footer-section{
+flex: 1;
+padding: 10px;
+padding-left: 30px;
+min-width: 160px;
+}
+
+.footer-list{
+list-style: none;
+}
+
+.footer-title{
+font-size: 20px;
+margin-bottom: 20px;
+}
+
+.footer-text{
+font-size: 15px;
+padding: 15px 0px;
+}
+
+.footer-link{
+font-size: 15px;
+padding-bottom: 20px;
+}
+
+
+
+
+
