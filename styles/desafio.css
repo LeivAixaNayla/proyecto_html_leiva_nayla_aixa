@@ -1,0 +1,54 @@
+:root {
+  --size-form: 150px;
+  --size-form-2: 180px;
+  --size-form-3: 200px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: cornflowerblue;
+}
+
+.challenge {
+  width: 100%;
+  height: auto;
+  display: flex;
+
+}
+
+.container-form {
+  border: solid black 2px;
+  display: flex;
+}
+
+#form-1 {
+  width: var(--size-form);
+  height: var(--size-form);
+  background-color: pink;
+  border-radius: 50% 0 50% 50%;
+  z-index: 3;
+  transform: translate(450px, 420px);
+}
+
+#form-2 {
+  width: var(--size-form-2);
+  height: var(--size-form-2);
+  background-color: greenyellow;
+  border-radius: 50% 0 50% 50%;
+  z-index: 2;
+  transform: translate(350px, 350px);
+}
+
+#form-3 {
+  width: var(--size-form-3);
+  height: var(--size-form-3);
+  background-color: pink;
+  border-radius: 50%;
+  z-index: 1;
+  transform: translate(250px, 250px);
+}
